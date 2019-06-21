@@ -1,0 +1,13 @@
+set root=%cd%
+set etc=%root%\etc
+set config=%etc%\raph.conf
+set syslocal=%etc%\sys
+set verdata=%etc%\verdat
+set keyring=%etc%\keyring
+set fs=%etc%\fs
+set bin=%root%\bin
+set home=%root%\home
+set lib=%root%\lib
+set mnt=%root%\mnt
+set cache=%bin%\cache
+set autostart=%bin%\autostart
