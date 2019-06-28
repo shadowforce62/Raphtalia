@@ -46,7 +46,6 @@ echo set l=%%%i%%%> %cache%\output.bat
 :call %cache%\output.bat
 for /F %%G IN ("%i%") do set "first_word=%%G"
 if %first_word%==logout set logout-flag=true && goto login
-i
 if exist %bin%\console\%first_word%.cmd (
     Call %bin%\console\%first_word%.cmd %i%
 ) else (
